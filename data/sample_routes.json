@@ -1,0 +1,72 @@
+{
+  "depot": {
+    "id": "depot-sf",
+    "name": "San Francisco Distribution Center",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "address": "123 Distribution Way, San Francisco, CA 94102",
+    "location_type": "warehouse"
+  },
+  "delivery_stops": [
+    {
+      "id": "cust-001",
+      "name": "Downtown Retailer",
+      "latitude": 37.7899,
+      "longitude": -122.3974,
+      "address": "456 Market St, San Francisco, CA 94102",
+      "delivery_window_start": "09:00",
+      "delivery_window_end": "17:00",
+      "package_weight_kg": 25.5,
+      "service_time_minutes": 15
+    },
+    {
+      "id": "cust-002",
+      "name": "Marina District Store",
+      "latitude": 37.8021,
+      "longitude": -122.4378,
+      "address": "789 Chestnut St, San Francisco, CA 94123",
+      "delivery_window_start": "10:00",
+      "delivery_window_end": "18:00",
+      "package_weight_kg": 32.0,
+      "service_time_minutes": 20
+    },
+    {
+      "id": "cust-003",
+      "name": "Mission Bay Business",
+      "latitude": 37.7706,
+      "longitude": -122.3922,
+      "address": "321 Mission Bay Blvd, San Francisco, CA 94158",
+      "delivery_window_start": "08:00",
+      "delivery_window_end": "16:00",
+      "package_weight_kg": 18.5,
+      "service_time_minutes": 10
+    },
+    {
+      "id": "cust-004",
+      "name": "Sunset District Shop",
+      "latitude": 37.7599,
+      "longitude": -122.4945,
+      "address": "555 Taraval St, San Francisco, CA 94116",
+      "delivery_window_start": "11:00",
+      "delivery_window_end": "19:00",
+      "package_weight_kg": 45.0,
+      "service_time_minutes": 25
+    },
+    {
+      "id": "cust-005",
+      "name": "Financial District Office",
+      "latitude": 37.7946,
+      "longitude": -122.3999,
+      "address": "100 California St, San Francisco, CA 94111",
+      "delivery_window_start": "09:00",
+      "delivery_window_end": "17:00",
+      "package_weight_kg": 12.0,
+      "service_time_minutes": 10
+    }
+  ],
+  "vehicle_capacity": {
+    "max_weight_kg": 500.0,
+    "max_volume_m3": 20.0,
+    "max_stops": 50
+  }
+}
